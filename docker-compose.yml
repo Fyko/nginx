@@ -4,6 +4,7 @@ services:
   web:
     build: 
       context: .
+    network_mode: host
     ports:
       - 80:80
     expose:
